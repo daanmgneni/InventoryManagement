@@ -1,55 +1,27 @@
 {
-  "TypeOfRice": [
+  "Stock1": [
     {
-      "name": "Bullet",
-      "weight": 2,
-      "price": 120
-    },
+      "shareName": "Tata",
+      "NumberShares": 4,
+      "price": 520
+    }
+
+
+  ],
+
+  "Stock2": [
     {
-      "name": "wheet",
-      "weight": 2,
-      "price": 120
-    },
-    {
-      "name": "rice",
-      "weight": 2,
-      "price": 120
+      "shareName": "Birla",
+      "NumberShares": 3,
+      "price": 700
     }
   ],
-  "TypeOfWheat": [
+
+  "Stock3": [
     {
-      "name": "Wheat1",
-      "weight": 6,
-      "price": 90
-    },
-    {
-      "name": "wheat2",
-      "weight": 2,
-      "price": 100
-    },
-    {
-      "name": "wheat3",
-      "weight": 7,
-      "price": 120
-    }
-  ],
-  "TypeOfPulses": [
-    {
-      "name": "Green Gram",
-      "weight": 3,
-      "price": 130
-    },
-    {
-      "name": "Dal",
-      "weight": 3,
-      "price": 80
-    },
-    {
-      "name": "Moong",
-      "weight": 2,
-      "price": 70
+      "shareName": "Ambani",
+      "NumberShares": 5,
+      "price": 600
     }
   ]
-
-
 }

@@ -3,23 +3,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
 using System.Threading.Tasks;
 
-namespace InventoryMangement
+namespace InventoryManagement1
 {
     public class ReadInventory
     {
         public InventoryDetails Read(string path)
         {
-            try 
+            try
             {
                 using (StreamReader file = new StreamReader(path))
                 {
-                    string json = file.ReadToEnd();
-                    return JsonConvert.DeserializeObject<InventoryDetails>(json);
+                    string json = file.ReadToEnd();      ///read file and store in json///
+
+                    return JsonConvert.DeserializeObject<InventoryDetails>(json); ////convert stream of bytes in object///
                 }
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return null;
             }
